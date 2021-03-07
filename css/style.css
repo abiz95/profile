@@ -1,8 +1,4 @@
-@media only screen and (max-width: 600px) {
-    .navbar {
-        display: inline;
-    }
-}
+
 .main {
     font-family: 'Titillium Web';
     font-style: unset;
@@ -54,4 +50,10 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        display: inline;
+    }
 }
